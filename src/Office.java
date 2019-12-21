@@ -1,6 +1,6 @@
 public class Office {
 
-	private string location;
+	private String location;
 	private int size;
 	private int Id;
 

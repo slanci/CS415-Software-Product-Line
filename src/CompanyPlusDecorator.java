@@ -1,4 +1,4 @@
-public class CompanyPlusDecorator {
+public class CompanyPlusDecorator implements CompDecorator{
 
 	private boolean[] featureFlagMap;
 

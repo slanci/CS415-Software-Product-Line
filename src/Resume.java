@@ -1,7 +1,7 @@
 public class Resume {
 
-	private string education;
-	private string experiences;
-	private string hobbies;
+	private String education;
+	private String experiences;
+	private String hobbies;
 
 }

@@ -1,10 +1,12 @@
+import java.util.Date;
+
 public class Intern {
 
 	private int ID;
 	private Employee employee;
-	private string location;
+	private String location;
 	private Date duration;
-	private string department;
-	private string team;
+	private String department;
+	private String team;
 
 }

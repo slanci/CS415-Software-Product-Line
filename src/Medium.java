@@ -1,10 +1,13 @@
+import MonitorNetwork.*;
+
 public class Medium extends Small {
 
 	private Schedule[] schedules;
 	private Course[] courses;
+	//TODO
 	private MonitorNetwork monitor;
 	private Commute[] commutes;
-	private string[] discipinaryStatus;
+	private String[] discipinaryStatus;
 	private Interview[] interview;
 
 	/**
@@ -103,7 +106,7 @@ public class Medium extends Small {
 	 * @param type
 	 */
 	public void scheduleInterview(int AppID, int EmpID, int Date, int type) {
-		// TODO - implement Medium.scheduleInterview
+		// TODO - implement Medium.ScheduleInterview
 		throw new UnsupportedOperationException();
 	}
 

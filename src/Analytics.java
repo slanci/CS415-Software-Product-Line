@@ -11,7 +11,7 @@ public class Analytics {
 	 * 
 	 * @param EmpID
 	 */
-	public void generateEmployeeData(string EmpID) {
+	public void generateEmployeeData(String EmpID) {
 		// TODO - implement Analytics.generateEmployeeData
 		throw new UnsupportedOperationException();
 	}
@@ -20,7 +20,7 @@ public class Analytics {
 	 * 
 	 * @param EmpID
 	 */
-	public void generatePaymentData(string EmpID) {
+	public void generatePaymentData(String EmpID) {
 		// TODO - implement Analytics.generatePaymentData
 		throw new UnsupportedOperationException();
 	}
@@ -29,7 +29,7 @@ public class Analytics {
 	 * 
 	 * @param EmpID
 	 */
-	public void generateAttandenceData(string EmpID) {
+	public void generateAttandenceData(String EmpID) {
 		// TODO - implement Analytics.generateAttandenceData
 		throw new UnsupportedOperationException();
 	}
@@ -38,7 +38,7 @@ public class Analytics {
 	 * 
 	 * @param JobOpeningID
 	 */
-	public void JobOpeningData(string JobOpeningID) {
+	public void JobOpeningData(String JobOpeningID) {
 		// TODO - implement Analytics.JobOpeningData
 		throw new UnsupportedOperationException();
 	}

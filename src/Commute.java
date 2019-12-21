@@ -1,7 +1,9 @@
+import java.sql.Time;
+
 public class Commute {
 
 	private int ID;
-	private string route;
+	private String route;
 	private Time time;
 
 }

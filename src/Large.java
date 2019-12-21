@@ -1,3 +1,5 @@
+import MonitorSoftware.*;
+
 public class Large extends Medium {
 
 	private Office[] offices;
@@ -15,7 +17,7 @@ public class Large extends Medium {
 	 * @param Office
 	 */
 	public void scheduleWithOffice(int[] empId, int Schedule, int Office) {
-		// TODO - implement Large.scheduleWithOffice
+		// TODO - implement Large.ScheduleWithOffice
 		throw new UnsupportedOperationException();
 	}
 

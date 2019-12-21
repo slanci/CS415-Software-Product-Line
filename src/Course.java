@@ -1,9 +1,9 @@
 public class Course {
 
 	private int ID;
-	private string name;
-	private string type;
-	private string description;
+	private String name;
+	private String type;
+	private String description;
 	private int budget;
 
 }

@@ -1,5 +1,6 @@
 public interface CompDecorator {
 
-	Large company = Large;
+	//TODO
+	// Large company = Large;
 
 }

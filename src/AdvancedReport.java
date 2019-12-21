@@ -4,7 +4,7 @@ public class AdvancedReport extends Report {
 	 * 
 	 * @param RepID
 	 */
-	public void shareReport(string RepID) {
+	public void shareReport(String RepID) {
 		// TODO - implement AdvancedReport.shareReport
 		throw new UnsupportedOperationException();
 	}
@@ -13,7 +13,7 @@ public class AdvancedReport extends Report {
 	 * 
 	 * @param RepID
 	 */
-	public void exportReport(string RepID) {
+	public void exportReport(String RepID) {
 		// TODO - implement AdvancedReport.exportReport
 		throw new UnsupportedOperationException();
 	}

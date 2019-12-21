@@ -1,8 +1,10 @@
-public class Schedule {
+import java.util.Date;
+
+public class Schedule{
 
 	private int ID;
 	private int workingHours;
-	private string[] workingDays;
+	private String[] workingDays;
 	private Date meetingTimes;
 
 	public void setScheduleStrategy() {

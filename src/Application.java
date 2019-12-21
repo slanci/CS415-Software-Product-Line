@@ -1,10 +1,10 @@
 public class Application {
 
 	private int id;
-	private string name;
-	private string surname;
+	private String name;
+	private String surname;
 	private int age;
 	private long TCK;
-	private string address;
+	private String address;
 
 }
