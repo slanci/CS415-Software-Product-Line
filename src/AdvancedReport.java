@@ -1,6 +1,8 @@
 public class AdvancedReport extends Report {
-	public AdvancedReport() {
 
+
+	public AdvancedReport(int ID, String name, String content, String type) {
+		super(ID, name, content, type);
 	}
 
 	/**

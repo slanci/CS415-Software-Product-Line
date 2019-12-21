@@ -10,6 +10,16 @@ public class Medium extends Small {
 	private String[] discipinaryStatus;
 	private Interview[] interview;
 
+	public Medium(Employee[] employee, JobOpening[] jobOpenings, Analytics analyticsEngine, Schedule[] schedules, Course[] courses, MonitorNetwork monitor, Commute[] commutes, String[] discipinaryStatus, Interview[] interview) {
+		super(employee, jobOpenings, analyticsEngine);
+		this.schedules = schedules;
+		this.courses = courses;
+		this.monitor = monitor;
+		this.commutes = commutes;
+		this.discipinaryStatus = discipinaryStatus;
+		this.interview = interview;
+	}
+
 	/**
 	 * 
 	 * @param EmpID

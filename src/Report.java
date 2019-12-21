@@ -5,6 +5,13 @@ public abstract class Report {
 	private String content;
 	private String type;
 
+	public Report(int ID, String name, String content, String type) {
+		this.ID = ID;
+		this.name = name;
+		this.content = content;
+		this.type = type;
+	}
+
 	/**
 	 * 
 	 * @param RepID

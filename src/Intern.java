@@ -9,4 +9,12 @@ public class Intern {
 	private String department;
 	private String team;
 
+	public Intern(int ID, Employee employee, String location, Date duration, String department, String team) {
+		this.ID = ID;
+		this.employee = employee;
+		this.location = location;
+		this.duration = duration;
+		this.department = department;
+		this.team = team;
+	}
 }

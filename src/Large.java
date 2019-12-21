@@ -1,3 +1,4 @@
+import MonitorNetwork.MonitorNetwork;
 import MonitorSoftware.*;
 
 public class Large extends Medium {
@@ -9,6 +10,17 @@ public class Large extends Medium {
 	private MonitorSoftware monitor;
 	private Payment[] automatedPayments;
 	private Intern[] interships;
+
+	public Large(Employee[] employee, JobOpening[] jobOpenings, Analytics analyticsEngine, Schedule[] schedules, Course[] courses, MonitorNetwork monitor, Commute[] commutes, String[] discipinaryStatus, Interview[] interview, Office[] offices, Schedule[] scheduleOffices, Event[] events, Employee[] mentorship, MonitorSoftware monitor1, Payment[] automatedPayments, Intern[] interships) {
+		super(employee, jobOpenings, analyticsEngine, schedules, courses, monitor, commutes, discipinaryStatus, interview);
+		this.offices = offices;
+		this.scheduleOffices = scheduleOffices;
+		this.events = events;
+		this.mentorship = mentorship;
+		this.monitor = monitor1;
+		this.automatedPayments = automatedPayments;
+		this.interships = interships;
+	}
 
 	/**
 	 * 

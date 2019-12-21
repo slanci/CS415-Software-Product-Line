@@ -1,5 +1,9 @@
 public class SimpleReport extends Report {
 
+	public SimpleReport(int ID, String name, String content, String type) {
+		super(ID, name, content, type);
+	}
+
 	/**
 	 * 
 	 * @param RepID

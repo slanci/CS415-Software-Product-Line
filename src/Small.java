@@ -4,6 +4,12 @@ public class Small implements Company {
 	private JobOpening[] jobOpenings;
 	private Analytics analyticsEngine;
 
+	public Small(Employee[] employee, JobOpening[] jobOpenings, Analytics analyticsEngine) {
+		this.employee = employee;
+		this.jobOpenings = jobOpenings;
+		this.analyticsEngine = analyticsEngine;
+	}
+
 	/**
 	 * 
 	 * @param pos

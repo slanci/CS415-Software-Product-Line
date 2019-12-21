@@ -4,18 +4,21 @@ public class Schedule{
 
 	private ScheduleStrategy scheduleStrategy;
 
-	public Schedule(ScheduleStrategy scheduleStrategy){
-		this.scheduleStrategy = scheduleStrategy;
-	}
-
 	private int ID;
 	private int workingHours;
 	private String[] workingDays;
 	private Date meetingTimes;
 
-	public void setScheduleStrategy() {
-		// TODO - implement Schedule.setScheduleStrategy
-		throw new UnsupportedOperationException();
+	public Schedule(ScheduleStrategy scheduleStrategy, int ID, int workingHours, String[] workingDays, Date meetingTimes) {
+		this.scheduleStrategy = scheduleStrategy;
+		this.ID = ID;
+		this.workingHours = workingHours;
+		this.workingDays = workingDays;
+		this.meetingTimes = meetingTimes;
+	}
+
+	public void setScheduleStrategy(ScheduleStrategy scheduleStrategy) {
+		this.scheduleStrategy = scheduleStrategy;
 	}
 
 }
