@@ -1,9 +1,12 @@
+import java.util.HashMap;
+
 public abstract class CompDecorator {
 
-	Company largeCompany;
-	HashMap<String, Boolean> featureFlagMap = new HashMap<String, Boolean>();
+	Large largeCompany;
+	HashMap<String, Boolean> featureFlagMap;
 
-	public CompDecorator(CHashMap<String, Boolean> featureFlagMap, Company largeCompany){
+
+	public CompDecorator(HashMap<String, Boolean> featureFlagMap, Large largeCompany){
 		this.featureFlagMap = featureFlagMap;
 		this.largeCompany = largeCompany;
 	}

@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class CompanyPlusDecorator extends CompDecorator {
 
-	public CompanyPlusDecorator(HashMap<String, Boolean> featureFlagMap, Company largeCompany) {
+	public CompanyPlusDecorator(HashMap<String, Boolean> featureFlagMap, Large largeCompany) {
 		super(featureFlagMap, largeCompany);
 	}
 
@@ -51,7 +51,7 @@ public class CompanyPlusDecorator extends CompDecorator {
 	 */
 	public void include_trackPaidTimeOff(int empID) {
 		if(this.featureFlagMap.get("trackPaidTimeOff")){
-			this.largeCompany.trackPaidTimeOff(EmpID);
+			this.largeCompany.trackPaidTimeOff(empID);
 		}
 		System.out.println("This functionality cannot be provided!");
 		throw new UnsupportedOperationException();
@@ -237,7 +237,7 @@ public class CompanyPlusDecorator extends CompDecorator {
 	 */
 	public void include_trackAbsanceWithFaceDetection(int EmpID) {
 		if(this.featureFlagMap.get("trackAbsanceWithFaceDetection")){
-			this.largeCompany.trackAbsanceWithFaceDetection(EmpId);
+			this.largeCompany.trackAbsanceWithFaceDetection(EmpID);
 		}
 		System.out.println("This functionality cannot be provided!");
 		throw new UnsupportedOperationException();

@@ -1,4 +1,4 @@
-public class Small implements Company {
+public class Small extends Company {
 
     private Employee[] employee;
     private JobOpening[] jobOpenings;

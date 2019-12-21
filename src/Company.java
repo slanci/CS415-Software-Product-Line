@@ -1,3 +1,4 @@
-public interface Company {
-
+public abstract class Company {
+    public Company() {
+    }
 }
