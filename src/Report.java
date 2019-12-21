@@ -43,10 +43,7 @@ public abstract class Report {
 	 * 
 	 * @param RepID
 	 */
-	public void exportReport(String RepID) {
-		// TODO - implement Report.exportReport
-		throw new UnsupportedOperationException();
-	}
+	public abstract void exportReport(String RepID);
 
 	/**
 	 * 
@@ -57,9 +54,10 @@ public abstract class Report {
 		throw new UnsupportedOperationException();
 	}
 
-	public void ReportTemplate() {
-		// TODO - implement Report.ReportTemplate
-		throw new UnsupportedOperationException();
+	public final void ReportTemplate(String RepID) {
+		exportReport(RepID);
+
+		shareReport(RepID);
 	}
 
 }
