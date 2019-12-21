@@ -1,14 +1,13 @@
-public class ScheduleInterview implements ScheduleStrategy{
+public class ScheduleInterview implements ScheduleStrategy {
 
 
-	public ScheduleInterview() {
-	}
+    public ScheduleInterview() {
+    }
 
-	@Override
-	public void createSchedule() {
-		// TODO - implement ScheduleInterview.createschedule
-		throw new UnsupportedOperationException();
-	}
+    @Override
+    public void createSchedule() {
+        System.out.println("Scheduled the Interview");
+    }
 
 
 }

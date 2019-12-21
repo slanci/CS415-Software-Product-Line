@@ -1,10 +1,9 @@
-public class ScheduleWithOffice implements ScheduleStrategy{
+public class ScheduleWithOffice implements ScheduleStrategy {
 
-	public ScheduleWithOffice() {
-	}
+    public ScheduleWithOffice() {
+    }
 
-	public void createSchedule() {
-		// TODO - implement ScheduleWithOffice.createSchedule
-		throw new UnsupportedOperationException();
-	}
+    public void createSchedule() {
+        System.out.println("Scheduled with Office");
+    }
 }

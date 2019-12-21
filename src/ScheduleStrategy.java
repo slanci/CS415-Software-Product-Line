@@ -1,5 +1,5 @@
 public interface ScheduleStrategy {
 
-	public void createSchedule();
+    public void createSchedule();
 
 }
