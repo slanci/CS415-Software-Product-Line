@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class HumanResourceSystem {
 
 	public static void main(String[] args){
@@ -13,11 +15,11 @@ public class HumanResourceSystem {
 
         //Extensions for small company as it desires
         HashMap<String, Boolean> sFeatureFlagMap = new HashMap<String, Boolean>();
-        hmap.put("scheduleEmployee", 1);
-        hmap.put("createHRTeam", 1);
+        sFeatureFlagMap.put("scheduleEmployee", true);
+        sFeatureFlagMap.put("createHRTeam", true);
         //rest of the functionalities 0 as default
 
-        CompanyPlusDecorator smallExtensioner = CompanyPlusDecorator(sFeatureFlagMap, large);
+        CompanyPlusDecorator smallExtensioner = new CompanyPlusDecorator(sFeatureFlagMap, large);
 
         //Use the included new functionalities with decorator
         smallExtensioner.include_scheduleEmployee(...);
@@ -29,10 +31,10 @@ public class HumanResourceSystem {
 
         //Extensions for medium company as it desires
         HashMap<String, Boolean> mFeatureFlagMap = new HashMap<String, Boolean>();
-        hmap.put("organizeEvent", 1);
+        sFeatureFlagMap.put("organizeEvent", true);
         //rest of the functionalities 0 as default
 
-        CompanyPlusDecorator mediumExtensioner = CompanyPlusDecorator(mFeatureFlagMap, large);
+        CompanyPlusDecorator mediumExtensioner = new CompanyPlusDecorator(mFeatureFlagMap, large);
         //Use the included new functionality with decorator
         mediumExtensioner.include_organizeEvent(...);
         

@@ -25,8 +25,8 @@ public class Medium extends Small {
      * @param ScheduleID
      */
     public void scheduleEmployee(int EmpID, int ScheduleID) {
-        for(Schedule schedule : schedules){
-            if(schedule.getEmpID() == EmpID){
+        for (Schedule schedule : schedules) {
+            if (schedule.getEmpID() == EmpID) {
                 schedule.getScheduleStrategy().createSchedule();
             }
         }
@@ -109,8 +109,8 @@ public class Medium extends Small {
      * @param type
      */
     public void scheduleInterview(int AppID, int EmpID, int Date, int type) {
-        for(Schedule schedule : schedules){
-            if(schedule.getEmpID() == EmpID){
+        for (Schedule schedule : schedules) {
+            if (schedule.getEmpID() == EmpID) {
                 schedule.getScheduleStrategy().createSchedule();
             }
         }

@@ -49,7 +49,7 @@ public class Analytics {
     }
 
     public void generateReports() {
-        for(Report r : this.reports) {
+        for (Report r : this.reports) {
             r.generateReport(r.getType());
         }
     }
