@@ -10,8 +10,7 @@ public class AdvancedReport extends Report {
 	 * @param RepID
 	 */
 	public void shareReport(String RepID) {
-		// TODO - implement AdvancedReport.shareReport
-		throw new UnsupportedOperationException();
+		System.out.println("shared report with advanced template, ID = " + RepID);
 	}
 
 	/**
@@ -19,8 +18,7 @@ public class AdvancedReport extends Report {
 	 * @param RepID
 	 */
 	public void exportReport(String RepID) {
-		// TODO - implement AdvancedReport.exportReport
-		throw new UnsupportedOperationException();
+		System.out.println("exported Advanced Report, ID = " + RepID);
 	}
 
 }

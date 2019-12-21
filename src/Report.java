@@ -50,8 +50,7 @@ public abstract class Report {
 	 * @param RepID
 	 */
 	public void shareReport(String RepID) {
-		// TODO - implement Report.shareReport
-		throw new UnsupportedOperationException();
+		System.out.println("shared report with default template, ID = " + RepID);
 	}
 
 	public final void ReportTemplate(String RepID) {
