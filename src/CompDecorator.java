@@ -1,6 +1,11 @@
-public interface CompDecorator {
+public abstract class CompDecorator {
 
-	//TODO
-	// Large company = Large;
+	Company largeCompany;
+	HashMap<String, Boolean> featureFlagMap = new HashMap<String, Boolean>();
 
+	public CompDecorator(CHashMap<String, Boolean> featureFlagMap, Company largeCompany){
+		this.featureFlagMap = featureFlagMap;
+		this.largeCompany = largeCompany;
+	}
+	
 }
