@@ -1,4 +1,7 @@
 public class AdvancedReport extends Report {
+	public AdvancedReport() {
+
+	}
 
 	/**
 	 * 

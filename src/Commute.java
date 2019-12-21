@@ -6,4 +6,9 @@ public class Commute {
 	private String route;
 	private Time time;
 
+	public Commute(int ID, String route, Time time) {
+		this.ID = ID;
+		this.route = route;
+		this.time = time;
+	}
 }

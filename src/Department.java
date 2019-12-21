@@ -3,6 +3,11 @@ public class Department {
 	private String name;
 	private Employee[] employee;
 
+	public Department(String name, Employee[] employee) {
+		this.name = name;
+		this.employee = employee;
+	}
+
 	/**
 	 * 
 	 * @param employeeID

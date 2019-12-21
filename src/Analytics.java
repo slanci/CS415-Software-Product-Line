@@ -2,10 +2,19 @@ public class Analytics {
 
 	private int[] employeeData;
 	private int[] paymentData;
-	private int[] MonitoringData;
-	private int[] AttandanceData;
-	private int[] JobOpeningData;
+	private int[] monitoringData;
+	private int[] attandanceData;
+	private int[] jobOpeningData;
 	private Report[] reports;
+
+	public Analytics(int[] employeeData, int[] paymentData, int[] monitoringData, int[] attandanceData, int[] jobOpeningData, Report[] reports) {
+		this.employeeData = employeeData;
+		this.paymentData = paymentData;
+		this.monitoringData = monitoringData;
+		this.attandanceData = attandanceData;
+		this.jobOpeningData = jobOpeningData;
+		this.reports = reports;
+	}
 
 	/**
 	 * 

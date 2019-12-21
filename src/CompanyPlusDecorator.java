@@ -2,6 +2,10 @@ public class CompanyPlusDecorator implements CompDecorator{
 
 	private boolean[] featureFlagMap;
 
+	public CompanyPlusDecorator(boolean[] featureFlagMap) {
+		this.featureFlagMap = featureFlagMap;
+	}
+
 	/**
 	 * 
 	 * @param featureFlagMap
