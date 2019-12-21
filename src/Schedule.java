@@ -5,6 +5,7 @@ public class Schedule {
     private ScheduleStrategy scheduleStrategy;
 
     private int ID;
+    private int EmpID;
     private int workingHours;
     private String[] workingDays;
     private Date meetingTimes;
@@ -21,4 +22,15 @@ public class Schedule {
         this.scheduleStrategy = scheduleStrategy;
     }
 
+    public int getID() {
+        return ID;
+    }
+
+    public ScheduleStrategy getScheduleStrategy() {
+        return scheduleStrategy;
+    }
+
+    public int getEmpID() {
+        return EmpID;
+    }
 }
